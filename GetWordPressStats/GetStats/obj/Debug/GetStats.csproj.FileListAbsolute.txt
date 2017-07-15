@@ -1,0 +1,6 @@
+c:\users\stephen\documents\visual studio 2015\Projects\GetStats\GetStats\bin\Debug\GetStats.exe.config
+c:\users\stephen\documents\visual studio 2015\Projects\GetStats\GetStats\bin\Debug\GetStats.exe
+c:\users\stephen\documents\visual studio 2015\Projects\GetStats\GetStats\bin\Debug\GetStats.pdb
+c:\users\stephen\documents\visual studio 2015\Projects\GetStats\GetStats\obj\Debug\GetStats.csprojResolveAssemblyReference.cache
+c:\users\stephen\documents\visual studio 2015\Projects\GetStats\GetStats\obj\Debug\GetStats.exe
+c:\users\stephen\documents\visual studio 2015\Projects\GetStats\GetStats\obj\Debug\GetStats.pdb

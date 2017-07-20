@@ -99,7 +99,7 @@ namespace IoTCoreDefaultApp
         private async void Test()
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://public-api.wordpress.com/rest/v1.1/sites/56752040/stats/summary/?fields=views&period=year&num=5");
-            request.Headers["Authorization"] = "Bearer 3snS&rEGEk)G$tXzDW0txI#cHoo#%MNUMlfP#H*nq)IU$NQuY1RSkBBF$CVWakM#";
+            request.Headers["Authorization"] = "Bearer YourApiKeyHere";
             string foxGreet = @"
               /^._
 ,___,--~~~~--' /'~  FoxDeploy Traffic Checking App!

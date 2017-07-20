@@ -100,7 +100,7 @@ namespace IoTCoreDefaultApp
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://public-api.wordpress.com/rest/v1.1/sites/56752040/stats/summary/?fields=views&period=year&num=5");
             request.Headers["Authorization"] = "Bearer YourApiKeyHere";
-            string foxGreet = @"
+            string foxGreet = @" 
               /^._
 ,___,--~~~~--' /'~  FoxDeploy Traffic Checking App!
 `~--~\ )___,)/ '
@@ -202,7 +202,7 @@ namespace IoTCoreDefaultApp
                 // your code
                 string url = "https://public-api.wordpress.com/rest/v1.1/sites/56752040/stats/summary/?fields=views&period=year&num=5";
                 //client.DefaultRequestHeaders.Add();
-                client2.DefaultRequestHeaders.Add("Authorization", "Bearer 3snS&rEGEk)G$tXzDW0txI#cHoo#%MNUMlfP#H*nq)IU$NQuY1RSkBBF$CVWakM#");
+                client2.DefaultRequestHeaders.Add("Authorization", "Bearer YourKeyHere");
 
                 HttpResponseMessage response1 = await client2.GetAsync(url);
                 string ham = await response1.Content.ReadAsStringAsync();
